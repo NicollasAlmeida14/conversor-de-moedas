@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #8a51fc, #6b3cc9);
+}
+
+/* .logo {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+} */
+
+main {
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: #8a51fc;
+}
+
+/* h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #ffffff;
+} */
+
+.title-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.title-logo h1 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.title-logo img {
+    width: 200px;
+    height: 200px;
+}
+
+.currency-to-convert-area {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin: 20px 0;
+}
+
+label {
+    color: #ffffff;
+}
+
+select {
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+}
+
+input {
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    margin: 29px 0;
+    appearance: none;
+    cursor: pointer;
+    width: auto;
+    outline: none;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 120px;
+    cursor: pointer;
+    background: linear-gradient(180deg, #8a51fc, #6b3cc9);
+    font-size: 1rem;
+}
+
+button:hover {
+    transform: translateY(-5px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+.converted-currency-area {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.converted-currency-area div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+p {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 950px) {
+
+    body {
+        background: #8a51fc;
+    }
+
+    main {
+        height: 100vh;
+        width: 100vw;
+        border-radius: none;
+    }
+
+    .title-logo h1 {
+        text-align: center;
+    }
+
+    .currency-to-convert-area,
+    .converted-currency-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button {
+        margin-bottom: 20px;
+        background: #6b3cc9;
+    }
+
+    button:hover {
+        transform: none;
+    }
+
+    button:active {
+        transform: translateY(-3px);
+    }
+
+    #converted-value {
+        margin-bottom: 1rem;
+    }
+
+    .arrow {
+        transform: rotate(90deg);
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
