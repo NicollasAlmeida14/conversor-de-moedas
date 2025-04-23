@@ -47,7 +47,7 @@ const convertValues = async () => {
     }
 }
 
-const selectCurrency = () => {
+const changeCurrencySelected = () => {
     const convertedCurrencyImage = document.getElementById('converted-currency-image')
     const convertedCurrencyName = document.getElementById('converted-currency-name')
 
@@ -75,4 +75,4 @@ const selectCurrency = () => {
 }
 
 convertButton.addEventListener('click', convertValues)
-selectConvertTo.addEventListener('change', selectCurrency)
+selectConvertTo.addEventListener('change', changeCurrencySelected)
