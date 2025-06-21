@@ -1,6 +1,6 @@
 <h1>Conversor de moedas 💲</h1>
 <br>
-<h2></h2>
+<h2>Este projeto se trata de um conversor de moedas desenvolvido ao longo da minha jornada como Dev!</h2>
 <br>
 <h3>Linguagens utilizadas:</h3>
 <div>
@@ -10,10 +10,11 @@
 </div>
 <br>
 <h3>Aqui estão algumas imagens do projeto:</h3>
+<img src= "https://github.com/NicollasAlmeida14/conversor-de-moedas/blob/master/assets/conversor-de-moedas-desktop.png?raw=true" width= "500px"  alt= "imagem-projeto-desktop">
 <div>
-<img src= "" width= "500px"  alt= "imagem-projeto-desktop">
-<img src= "" height= "300px" alt= "imagem-projeto-responsivo">
+<img src= "https://github.com/NicollasAlmeida14/conversor-de-moedas/blob/master/assets/conversor-de-moedas-mobile1.png?raw=true" height= "300px" alt= "imagem-projeto-responsivo">
+<img src= "https://github.com/NicollasAlmeida14/conversor-de-moedas/blob/master/assets/conversor-de-moedas-mobile2.png?raw=true" height= "300px" alt= "imagem-projeto-responsivo">
 </div>
 <br>
 <br>
-<p></p>
+<p>Este conversor de moedas é um dos projetos que mais gosto, particulamente. Apesar de poder ser considerado um projeto simples, ele tem algumas funcionalidades interessantes, pois, além de ser responsivo, ele consome uma API de cotação do AwesomeAPI para dar dinamismo nos valores envolvidos.</p>
